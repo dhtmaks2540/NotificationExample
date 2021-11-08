@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NotificationExample</string>
+
+    <string name="big_text">BigTextStyle을 설정하기 위한 텍스트로 아무런 문자를 넣자아아아아아아....</string>
+</resources>

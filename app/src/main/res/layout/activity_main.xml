@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/normal_noti_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기본 알림" />
+
+    <Button
+        android:id="@+id/picture_noti_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BigPictureStyle 알림" />
+
+    <Button
+        android:id="@+id/text_noti_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BigTextStyle 알림" />
+
+    <Button
+        android:id="@+id/inbox_noti_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="InboxStyle 알림" />
+
+    <Button
+        android:id="@+id/progress_noti_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress 알림" />
+
+    <Button
+        android:id="@+id/headsup_noti_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Headsup 알림" />
+
+    <Button
+        android:id="@+id/message_noti_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MessageStyle 알림" />
+
+</LinearLayout>
